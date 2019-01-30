@@ -1,0 +1,40 @@
+sune=0
+pelle=0
+calle=0
+
+sune = function()
+  print("Sune")
+  return pelle
+end
+
+pelle = function()
+  print("Pelle")
+  return calle
+end
+
+calle = function()
+  print("Calle")
+  return sune
+end
+
+func = sune
+
+func = func()
+func = func()
+func = func()
+func = func()
+func = func()
+func = func()
+
+print() print() print()
+
+func = function()
+  print("A function")
+  return function()
+    print("A return function")
+    return "The return"
+  end
+end
+
+func = func()()
+print(func)

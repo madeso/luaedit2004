@@ -1,0 +1,33 @@
+function create_person(p_name, p_age)
+  person={}
+  person.name = p_name
+  person.age = p_age
+  function person:print()
+    print("Name:", self.name)
+    print("Age:", self.age)
+  end
+  return person
+end
+
+function create_member(p_name, p_age, p_salary)
+  person = create_person(p_name, p_age)
+  person.salary = p_salary
+  person.super={}
+  person.super.print = person.print
+  function person:print()
+    self.super.print(self)
+    print("Salary:", self.salary)
+  end
+  return person
+end
+  
+
+p1 = create_person("Sune", 12)
+p2 = create_member("Pelle", 13, 40)
+p3 = create_person("Calle", 12)
+
+print("Persons:")
+print("----------------------")
+p1.print(p1) print("--------")
+p2.print(p2) print("--------")
+p3.print(p3)

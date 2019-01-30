@@ -1,0 +1,19 @@
+By using short-cut keys you can work alot faster.
+By pressing Shift and F1 to F3 you can arrange the windows.
+Press Shift+F4 to arrange the icons.
+By using the timesaving option(view->options->time saving) you can lower the risc of loosing your code at a crash.
+The application path can be any program that can be run from a console. The text [script] is replaced by the script file.
+The script can be compiled using the standard lua compiler. Just press Ctrl and F5 to compile the opened script.
+Don't know how to do something, just press F1.
+This software was made by Gustav Jansson in a visual basic course.
+The maker of this software, Gustav Jansson, is making a game called Infection.
+Gustav, the guy who has programemd this software, know how to program in C, C++, C#, Java, Lua, VB, Delphi and SQL.
+The alias of the maker is sirGustav.
+By typing "if" on a single row and the pressing space while holding down the shift-key the statement is evaluated into "if then end"
+By typing "while" on a single row and the pressing space while holding down the shift-key the statement is evaluated into "while do end"
+By typing "local" on a single row and the pressing space while holding down the shift-key the statement is evaluated into "local funtion () end"
+By typing "repeat" on a single row and the pressing space while holding down the shift-key the statement is evaluated into "repeat until"
+By typing "for" on a single row and the pressing space while holding down the shift-key the statement is evaluated into "for do end"
+By typing "forin" on a single row and the pressing space while holding down the shift-key the statement is evaluated into "for in do end"
+By typing "function" on a single row and the pressing space while holding down the shift-key the statement is evaluated into "function () end"
+By typing "do" on a single row and the pressing space while holding down the shift-key the statement is evaluated into "do end"
